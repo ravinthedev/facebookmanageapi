@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'SocialMediaTool.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iU29jaWFsTWVkaWFUb29sLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPlNvY2lhbE1lZGlhVG9vbDwvdGl0bGU+DQogICAgPHZlbmRvcj5hZG1pbjwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJTb2NpYWxNZWRpYVRvb2wuamFyIiBzaXplPSI1MDAzIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YS1qc29uLmphciIgc2l6ZT0iODQ2OTciIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxyZXN0ZmItMS42LjIuamFyIiBzaXplPSI5ODU2OSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9InNvY2lhbG1lZGlhdG9vbC5FeHRBeEdVSSIgIG5hbWU9IlNvY2lhbE1lZGlhVG9vbCIgLz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedsocialmediatool() {
+        dtjava.embed(
+            {
+                id : 'socialmediatool',
+                url : 'SocialMediaTool.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iU29jaWFsTWVkaWFUb29sLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPlNvY2lhbE1lZGlhVG9vbDwvdGl0bGU+DQogICAgPHZlbmRvcj5hZG1pbjwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJTb2NpYWxNZWRpYVRvb2wuamFyIiBzaXplPSI1MDAzIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YS1qc29uLmphciIgc2l6ZT0iODQ2OTciIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxyZXN0ZmItMS42LjIuamFyIiBzaXplPSI5ODU2OSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9InNvY2lhbG1lZGlhdG9vbC5FeHRBeEdVSSIgIG5hbWU9IlNvY2lhbE1lZGlhVG9vbCIgLz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedsocialmediatool);
+</script>
+
+</head><body>
+<h2>Test page for <b>SocialMediaTool</b></h2>
+  <b>Webstart:</b> <a href='SocialMediaTool.jnlp' onclick="return launchApplication('SocialMediaTool.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
